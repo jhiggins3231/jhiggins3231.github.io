@@ -1,0 +1,11 @@
+.jumbotron {
+    background: url('../assets/abstract-art-background-2917442.jpg');
+    background-size: cover;
+    height: 95vh;
+    font-family: 'Old Standard TT', serif;
+    text-align: center;
+    color: white;
+}
+#skills {
+    color: #FF4A1C;
+}
