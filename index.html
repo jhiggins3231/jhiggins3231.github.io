@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -12,6 +12,7 @@
     <!-- BOOTSTRAP-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!--css files-->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
@@ -19,39 +20,24 @@
 
     <body>
 
-        <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light; background-color: black">
-            <a class="navbar-brand" style="color: white" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <div class="btn-group dropleft">
-                        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            Menu
-                        </button>
-                        <div class="dropdown-menu" style="background-color: black">
-                            <!-- Dropdown menu links -->
-                            <a class="nav-item nav-link active" style="color:white" href="#">Home <span
-                                class="sr-only">(current)</span></a>
-                            <a class="nav-item nav-link" style="color: white" href="#">Projects</a>
-                            <a class="nav-item nav-link" style="color: white" href="#">About</a>
-                            <a class="nav-item nav-link" style="color: white" href='#'>Contact</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
         <!-- JUMBOTRON / HEADER -->
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">James Higgins</h1>
-                <p class="lead"><strong>Full Stack Web Developer</strong></p>
+        <section id="home">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">James Higgins</h1>
+                    <p class="lead"><strong>Full Stack Web Developer</strong></p>
+                </div>
+                <a id="fb" href="https://www.facebook.com/james.higgins.3139">
+                    <img src="assets/fblogo.png" alt="fb" height="50px" width="50px">
+                </a>
+                <a id="linked" href="https://www.linkedin.com/in/james-higgins-326105140/">
+                    <img src="assets/linked.png" alt="linkedin" width="56px" height="56px">
+                </a>
+                <a id="insta" href="https://www.instagram.com/_james2/">
+                    <img src="assets/Insta.png" alt="insta" height="56px" width="56px">
+                </a>
             </div>
-        </div>
+        </section>
 
 
         <section id="skills">
@@ -59,106 +45,143 @@
             <div class='skillsContainer'>
                 <div class='row'>
                     <div class='col-2'>
-                        <img class='html' src="../portfolioExample/assets/HTML5_1Color_Black.png" width="100px" height="100px">
+                        <img class='html' src="../portfolioExample/assets/HTML5_1Color_Black.png" width="100px"
+                            height="100px">
                     </div>
-                    <div class='col-2'><img class="css" src="assets/CSS3_logo_and_wordmark.svg" width="100px" height="100px">
+                    <div class='col-2'><img class="css" src="assets/CSS3_logo_and_wordmark.svg" width="100px"
+                            height="100px">
                     </div>
-                    <div class='col-2'><img class="javascript" src="assets/Javascript-shield.png" height="100px" width="100px">
+                    <div class='col-2'><img class="javascript" src="assets/Javascript-shield.png" height="100px"
+                            width="100px">
                     </div>
                     <div class='col-2'></div>
                     <div class='col-2'></div>
-                    <div class='col-2'></div>
+                    <div class="col-2"><img class="bootstrapPic" src="assets/boot.png" height="100px" width="90px">
+                    </div>
                 </div>
             </div>
         </section>
         <!-- PROJECTS -->
+
+
         <!-- COLUMNS MUST ALWAYS ADD UP TO 12. E.G. 4/4/4 OR 5/2/5-->
         <section id="projects">
             <h1 class="projectsTitle" style="text-align: center; font-size: 40px">Projects</h1>
             <div class="container">
                 <div class="row">
-                    <div class="col-4"><a href="https://tragiknv.github.io/staticLayout/">My Cheatsheets</a><br>
-                        My first attempt at copying a static layout. 
-                        Add an image of webpage screen.
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/Static.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Static Layout</h5>
+                            <p class="card-text">Here's a look at the first project we completed in class. A copy of a
+                                webpage.</p>
+                            <a href="https://tragiknv.github.io/staticLayout/" class="btn btn-primary">Take a look</a>
+                        </div>
                     </div>
-                    <div class="col-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptatibus rem facere libero
-                        iusto inventore iure, quam vero non provident maiores est ab pariatur reprehenderit quia
-                        possimus voluptatum. Commodi, officiis!
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/Pokemon.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pokemon Arena API</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="https://tragiknv.github.io/PokemonArenaAPI/" class="btn btn-primary">To Battle!</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="row">
+                    <div class="col-4" id="proj1"><img src="assets/Static.png" height="150px" width="300px"><br>
+                        <a class="cheat" href="https://tragiknv.github.io/staticLayout/">My Cheatsheets</a><br>
+                        For our first project we were tasked with replicating a static layout. Here is my first attempt at a static layout. I copied Rico's cheetsheats 
+                        <!-- Add an image of webpage screen.-->
+                <!-- </div>
+                    <div class="col-4"><img class="pokemon" src="assets/Pokemon.jpg" width="300px" height="150px">
+                        <a class="pokemontext" href="https://tragiknv.github.io/PokemonArenaAPI/.">Pokemon Arena API</a><br>
+                        For my API Project I created a replica of the classic Gameboy Pokemon Battle screen. However, I have added the option to select whichever pokemon you'd like and it generates two moves for each pokemon. The Pokemons corresponding moves will either move that selected Pokemon up or down.
                     </div>
                     <div class="col-4">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ex esse vero tenetur incidunt velit
                         perspiciatis provident ducimus eius vel, doloremque, nisi voluptas quam laborum, magnam numquam
                         voluptatibus. Quaerat, id?
-                    </div>
-                </div>
+                    </div> -->
             </div>
-            <br>
-            <br>
-            <br>
-            </section>
-
-        <!-- CONTACT FORM -->
-        <section id="contact">
-            <div class="container">
-                <br>
-                <br>
-                <h2 class="text-center text-uppercase">Contact Me</h2>
-                <div class="row">
-                    <div class="col-12">
-                        <form action="https://formspree.io/jhiggins3231@gmail.com" method="POST">
-                            <div class="control-group">
-                                <div class="form-group">
-                                    <label>Name</label>
-                                    <input type="text" class="form-control" placeholder="Your Name" id="name" required
-                                        data-validation-required-message="Please enter your name" name="name">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group">
-                                    <label>Email Address</label>
-                                    <input type="email" class="form-control" placeholder="Your Email" id="email"
-                                        required data-validation-required-message="Please enter your email"
-                                        name="_replyto">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group">
-                                    <textarea class="form-control" rows="7" placeholder="Your Message" id="message"
-                                        required data-validation-required-message="Please leave a message"
-                                        name="message"></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-lg btn-black">
-                                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                                    Send Message
-                                </button>
-                            </div>
-                        </form>
+</div>
+<br>
+<br>
+<br>
+</section>
+<section id="about">
+    <h1 class="text-center text-uppercase">About Me</h1>
+    <p class="about-me">This is where we can put all of the about me stuff!</p>
+</section>
+<!-- CONTACT FORM -->
+<section id="contact">
+    <div class="container">
+        <br>
+        <br>
+        <h2 class="text-center text-uppercase">Contact Me</h2>
+        <div class="row">
+            <div class="col-12">
+                <form action="https://formspree.io/jhiggins3231@gmail.com" method="POST">
+                    <div class="control-group">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                                data-validation-required-message="Please enter your name" name="name">
+                            <p class="help-block text-danger"></p>
+                        </div>
                     </div>
-                </div>
+                    <div class="control-group">
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                                data-validation-required-message="Please enter your email" name="_replyto">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                                data-validation-required-message="Please leave a message" name="message"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div id="success"></div>
+                        <button type="submit" class="btn btn-lg btn-black">
+                            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                            Send Message
+                        </button>
+                    </div>
+                </form>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
+<nav class="navbar fixed-bottom navbar-light">
+    <a id="nav-color" class="nav-item nav-link" href="#home">Home</a>
+    <a id="nav-color" class="nav-item nav-link active" href="#skills">Skills</a>
+    <a id="nav-color" class="nav-item nav-link" href="#projects">Projects</a>
+    <a id="nav-color" class="nav-item nav-link" href="#about">About</a>
+    <a id="nav-color" class="nav-item nav-link" href="#contact">Contact</a>
+</nav>
+</div>
+</div>
 
 
 
 
 
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-        </script>
+<script type="text/javascript" src="navbar.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
 </div>
 </body>
 

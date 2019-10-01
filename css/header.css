@@ -3,9 +3,13 @@
     background-size: cover;
     height: 95vh;
     font-family: 'Old Standard TT', serif;
-    text-align: center;
+    text-align: left;
     color: white;
 }
 #skills {
     color: #FF4A1C;
+}
+
+#fb {
+    
 }

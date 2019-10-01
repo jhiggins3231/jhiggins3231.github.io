@@ -4,10 +4,17 @@
 }
 
 h2 {
-    color: white;
+    color: #FF4A1C;
 }
 
 .text-center button {
-    background-color: white;
+    background-color: #FF4a1c;
     color: black;
+}
+.form-group {
+    color: #FF4a1c;
+}
+.form-control {
+    background-color: #3F2A2B;
+    color: #B2FFA9;
 }

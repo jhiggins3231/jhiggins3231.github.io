@@ -5,3 +5,14 @@
     padding-bottom: 3em;
     color: #FF4A1C;
 }
+.card {
+    background-color: #B2FFA9!important;
+    margin: 5px;
+    border: 3px solid #FF4a1c;
+}
+#about {
+    color: #ff4a1c;
+}
+.about-me {
+    text-align: center;
+}
