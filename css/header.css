@@ -9,7 +9,13 @@
 #skills {
     color: #FF4A1C;
 }
-
+.links {
+    width: 200px;
+    position: absolute;
+    top: 3%;
+    right: 1%;
+}
 #fb {
-    
+}
+#linked {
 }
