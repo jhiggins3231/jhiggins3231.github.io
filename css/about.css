@@ -54,3 +54,12 @@
     font-family: 'Lato', sans-serif;
     /* font-family: 'Big Shoulders Display', cursive; */
 }
+.resume {
+    filter: grayscale(100%);
+    position: relative;
+    left: 47%;
+    bottom: 3%;
+}
+.resume:hover {
+    filter: grayscale(0%)
+}
