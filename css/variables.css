@@ -1,16 +1,14 @@
 :root {
-    --red: red;
-    --orange: orange;
-    --yellow: yellow;
-    --green: green;
-    --blue-green: aqua;
-    --blue: blue;
-    --purple: purple;
-    --brown: #6d6656;
-    --grey: #53565A;
+    --orange: #FF4A1C;
+    --blue-green: #B2FFA9;
+    --brown: #3F2A2B;
+    --grey: #565254;
     --black: #272727;
-}
-​
-@font-face {
-    source: url('../assets/ROMANTIC.TTF');
+    --white: #fffbfe;
+    --light-gray: #d0cfcf;
+    --rich-black: #01161E;
+    --midnight-green: #124559;
+    --steel-teal: #598392;
+    --ash-grey: #aec3b0;
+    --beige: #eff6e0;
 }

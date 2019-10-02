@@ -1,0 +1,56 @@
+#about {
+    color: #ff4a1c;
+}
+.text-center {
+    letter-spacing: 5px;
+}
+.about-me {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+#experience {
+    color: #ff4a1c;
+    padding: 50px;
+    margin: 15px;
+}
+.experience {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+#navy {
+    margin: 0 auto;
+    background: none;
+}
+#subPic {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 35%;
+}
+#subButton {
+    background-color: whitesmoke;
+    width: 400px;
+    height: 95px;
+    position: absolute;
+    left: 35%;
+    opacity: 0;
+}
+#gaiButton {
+    background-color: whitesmoke;
+    position: relative;
+    width: 400px;
+    height: 95px;
+    opacity: 0;
+    left: 3%;
+}
+#gaiPic {
+    position: relative;
+    left: 36%;
+}
+.modal-body {
+    font-size: 14px;
+    color: var(--steel-teal);
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Big Shoulders Display', cursive; */
+}

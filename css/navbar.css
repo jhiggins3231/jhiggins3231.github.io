@@ -1,9 +1,8 @@
 .navbar {
-    background-color: #b2ffa9;
+    background-color: var(--steel-teal);
     padding: 0rem;
     border: 2px solid #3F2A2B;
     border-radius: 10px;
-    opacity: .8;
 }
 navbar-toggler-icon {
     color: black;
@@ -11,7 +10,9 @@ navbar-toggler-icon {
 .nav-item {
     font-size: 18px;
     color: #FF4a1c;
-    padding: 5px;
-    font-weight: 500;
-    opacity: 1;
+    /* padding: 5px; */
+    font-weight: 700;
+}
+.nav-item:hover {
+    transform: scale(1.5) translate(0px, -5px);
 }

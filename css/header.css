@@ -5,9 +5,11 @@
     font-family: 'Old Standard TT', serif;
     text-align: left;
     color: white;
+    font-family: 'Big Shoulders Display', cursive;
+    border-radius: 0px 0px 75px 75px;
 }
-#skills {
-    color: #FF4A1C;
+.lead {
+    font-family: 'Lato', sans-serif;
 }
 .links {
     width: 200px;
@@ -15,7 +17,77 @@
     top: 3%;
     right: 1%;
 }
+
 #fb {
+    filter: grayscale(90%);
 }
+
 #linked {
+    filter: grayscale(90%);
+}
+
+#insta {
+    filter: grayscale(90%);
+}
+
+#insta:hover {
+    filter: grayscale(0%);
+}
+
+#linked:hover {
+    filter: grayscale(0%);
+}
+
+#fb:hover {
+    filter: grayscale(0%);
+}
+
+#skills {
+    color: #FF4A1C;
+    margin: 0 auto !important;
+}
+.skillsSection {
+    letter-spacing: 5px;
+}
+.html {
+    transition: transform .4s ease-in-out;
+}
+
+.html:hover {
+    transform: scale(.75) rotate(360deg);
+}
+.css {
+    transition: transform .4s ease-in-out;
+}
+.css:hover {
+    transform: scale(1.5) rotate(360deg);
+}
+
+.javascript {
+    transition: transform .4s ease-in-out;
+}
+
+.javascript:hover {
+    transform: scale(.75) rotate(360deg);
+}
+.firebase {
+    transition: transform .4s ease-in-out;
+}
+.firebase:hover {
+    transform: scale(1.5) rotate(360deg);
+}
+
+.github {
+    transition: transform .6s ease-in-out;
+}
+
+.github:hover {
+    transform: scale(.65) rotate(360deg);
+}
+
+.bootstrapPic {
+    transition: transform .6s ease-in-out;
+}
+.bootstrapPic:hover {
+    transform: scale(1.25) rotate(360deg);
 }
