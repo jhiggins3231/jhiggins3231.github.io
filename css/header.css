@@ -51,13 +51,14 @@
 }
 .html {
     transition: transform .4s ease-in-out;
+    
 }
-
 .html:hover {
-    transform: scale(.75) rotate(360deg);
+    transform: scale(.75) rotate(360deg);  
 }
 .css {
     transition: transform .4s ease-in-out;
+    opacity: .6;
 }
 .css:hover {
     transform: scale(1.5) rotate(360deg);
@@ -65,6 +66,7 @@
 
 .javascript {
     transition: transform .4s ease-in-out;
+    opacity: .8;
 }
 
 .javascript:hover {
