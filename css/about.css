@@ -6,7 +6,9 @@
 }
 .about-me {
     text-align: center;
+    margin: 0px 250px 0px 250px;
     font-family: 'Lato', sans-serif;
+    font-size: 18px;
 }
 #experience {
     color: #ff4a1c;
@@ -39,10 +41,10 @@
 #gaiButton {
     background-color: whitesmoke;
     position: relative;
-    width: 400px;
-    height: 95px;
+    width: 355px;
+    height: 75px;
     opacity: 0;
-    left: 3%;
+    left: 5%;
 }
 #gaiPic {
     position: relative;

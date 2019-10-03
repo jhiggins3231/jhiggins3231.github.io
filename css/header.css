@@ -99,3 +99,9 @@
 .bootstrapPic:hover {
     transform: scale(1.25) rotate(360deg);
 }
+.vscode {
+    transition: transform .4s ease-in-out;
+}
+.vscode:hover {
+    transform: scale(1.25) rotate(360deg);
+}
